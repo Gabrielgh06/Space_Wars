@@ -1,0 +1,8 @@
+E:\Programação\ArenaDeBatalha\ArenaDeBatala.GameLogic\obj\Debug\ArenaDeBatala.GameLogic.csproj.AssemblyReference.cache
+E:\Programação\ArenaDeBatalha\ArenaDeBatala.GameLogic\obj\Debug\ArenaDeBatala.GameLogic.csproj.GenerateResource.cache
+E:\Programação\ArenaDeBatalha\ArenaDeBatala.GameLogic\bin\Debug\ArenaDeBatala.GameLogic.dll
+E:\Programação\ArenaDeBatalha\ArenaDeBatala.GameLogic\bin\Debug\ArenaDeBatala.GameLogic.pdb
+E:\Programação\ArenaDeBatalha\ArenaDeBatala.GameLogic\obj\Debug\ArenaDeBatala.GameLogic.Media.resources
+E:\Programação\ArenaDeBatalha\ArenaDeBatala.GameLogic\obj\Debug\ArenaDeBatala.GameLogic.csproj.CoreCompileInputs.cache
+E:\Programação\ArenaDeBatalha\ArenaDeBatala.GameLogic\obj\Debug\ArenaDeBatala.GameLogic.dll
+E:\Programação\ArenaDeBatalha\ArenaDeBatala.GameLogic\obj\Debug\ArenaDeBatala.GameLogic.pdb

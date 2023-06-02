@@ -1,0 +1,14 @@
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.AssemblyReference.cache
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.SuggestedBindingRedirects.cache
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.FormPrincipal.resources
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.Properties.Resources.resources
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.GenerateResource.cache
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.CoreCompileInputs.cache
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatalha.GUI.exe.config
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatalha.GUI.exe
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatalha.GUI.pdb
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatala.GameLogic.dll
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\bin\Debug\ArenaDeBatala.GameLogic.pdb
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.csproj.CopyComplete
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.exe
+E:\Programação\ArenaDeBatalha\ArenaDeBatalha.GUI\obj\Debug\ArenaDeBatalha.GUI.pdb
