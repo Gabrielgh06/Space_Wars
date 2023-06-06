@@ -13,23 +13,23 @@ namespace ArenaDeBatalha.GUI
 {
     public partial class FormPrincipal : Form
     {
-        DispatcherTimer gameLoopTimer { get; set; }
-        DispatcherTimer enemySpawnTimer { get; set; }
-        Bitmap screenBuffer { get; set; }
-        Graphics screenPainter { get; set; }
-        Background background { get; set; }
-        Player player { get; set; }
-        GameOver gameOver { get; set; }
-        List<GameObject> gameObjects { get; set; }
-        public Random random { get; set; }
-        bool canShoot;
+        DispatcherTimer gameLoopTimer { get; set; } // Relógio para o looping do jogo
+        DispatcherTimer enemySpawnTimer { get; set; } // Relógio paara criação de inimigos
+        Bitmap screenBuffer { get; set; } // Pintura de cada quadro do jogo
+        Graphics screenPainter { get; set; } // Ferramenta de pintura
+        Background background { get; set; } // Objeto plano de fundo
+        Player player { get; set; } // Objeto Player
+        GameOver gameOver { get; set; } // Objeto Game Over
+        List<GameObject> gameObjects { get; set; } // Lista com todos os objetos renderizados na tela
+        public Random random { get; set; } // Gerador de números aleatórios
+        bool canShoot; // Variável que controla a quantidade de tiros qeu o jogador pode dar
 
         public FormPrincipal()
         {
             InitializeComponent(); // Inicializa todos os componentes
 
             this.random = new Random();
-            this.ClientSize = Media.Background.Size;
+            this.ClientSize = Media.Background.Size; // Determina o tamanho da tela do formulário para que ela fique do mesmo tamanho da tela de fundo de background
             this.screenBuffer = new Bitmap(Media.Background.Width, Media.Background.Height);
             this.screenPainter = Graphics.FromImage(this.screenBuffer);
             this.gameObjects = new List<GameObject>();
@@ -45,9 +45,6 @@ namespace ArenaDeBatalha.GUI
             this.enemySpawnTimer.Interval = TimeSpan.FromMilliseconds(1000);
             this.enemySpawnTimer.Tick += SpawnEnemy; // Criação do inimigo
 
-            this.gameObjects.Add(background);
-            this.gameObjects.Add(player);
-
             StartGame(); // Inicializa o Jogo, que chama o Timer 
         }
 
@@ -58,7 +55,7 @@ namespace ArenaDeBatalha.GUI
             this.gameObjects.Add(player);
             this.player.SetStartPosition();
             this.player.Active = true;
-            this.gameLoopTimer.Start(); // O timer por sua vez é um looping do jogo que 
+            this.gameLoopTimer.Start(); // O timer por sua vez é um looping do jogo
             this.enemySpawnTimer.Start();
             this. canShoot = true;
         }
@@ -68,8 +65,6 @@ namespace ArenaDeBatalha.GUI
             this.gameObjects.Clear();
             this.gameLoopTimer.Stop();
             this.enemySpawnTimer.Stop();
-            this.gameObjects.Add(background);
-            this.gameObjects.Add(gameOver);
             this.background.UpdateObject();
             this.gameOver.UpdateObject();
             Invalidate();
